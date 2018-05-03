@@ -1,2 +1,2 @@
 # Yoga-Studio
-A webpage for a yoga studio.
+A responsive webpage for a yoga studio.
