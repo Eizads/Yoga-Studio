@@ -1,0 +1,500 @@
+/* background-color: #aebb2f; */
+/* #7f7f7f */
+/*  #f19d20 */
+/* -----------------global-------------------- */
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background: lightgrey;
+    font-family: 'roboto regular', sans-serif;
+    font-size: 1rem;
+}
+
+.Container {
+    /* width: auto; */
+    max-width: 1024px;
+    /* min-width: 360px; */
+    /* display: grid;
+    grid-template-columns: 0.3fr 0.6fr 0.3fr; */
+    /* grid-row-gap: 0.5rem; */
+    /* grid-template-rows: auto; */
+    /* width: 100%; */
+    /* max-width: 1024px; */
+    margin: 0 auto;
+    /* position: relative; */
+    /* grid-template-areas: 'a a a' 'b b b' ' c c c' ' d j d' 'e e e' 'f f f' ' g g g' ' h h h ' 'i i i' */
+}
+
+.section-name {
+    text-align: center;
+    font-weight: lighter;
+    /* font-size: 20px; */
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 35px;
+    color: grey;
+}
+ .login button:focus, .hero-form button:focus, .detail button:focus, .packages button:focus{
+outline: none; }
+
+
+/*-----------------login----------------------- */
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid lightgrey;
+}
+
+.login button {
+    padding: 10px 20px;
+    background: green;
+    border: none;
+    border-radius: 10px;
+    /* margin-right: 20px; */
+    /* background: white; */
+    font-size: 1rem;
+}
+
+/*-----------------nav----------------------- */
+
+nav {
+    /* grid-row: 2/3; */
+    /* grid-column: 1/4; */
+    background: #fff;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10px;
+}
+#navbar {
+     padding: 0 20px;
+     font-size:1rem;
+     color: black;
+    display: none;
+}
+nav a {
+    font-size: 0.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    color:grey;
+}
+
+a:hover {
+    color: grey;
+}
+
+nav a:first-of-type{
+    color:#aebb2f;
+}
+
+nav > .logo{
+    width: 150px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.dropdown-content{
+    display: none;
+}
+.hero {
+    /* grid-row: 3/4; */
+    /* grid-column: 1/4; */
+    background: green;
+    /* height: auto; */
+    height: 450px;
+    /* min-height: 414px; */
+    /* height: 40%; */
+    background-image: url("../pics/hero-image.jpg");
+    background-position: bottom;
+    /* background-position-y: -180px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 3px solid #aebb2f;
+    margin-top: 0;
+}
+
+.hero-form {
+    /* background: purple; */
+    margin: 50px 20px;
+    /* margin: 50px; */
+    height: auto;
+    /* width: 3%; */
+    /* padding-bottom:  50px; */
+    /* overflow: hidden; */
+    /* min-width: 36%; */
+    /* max-width: 100%; */
+    /* width: 100% */
+    /* max-width: 50%; */
+}
+
+.hero-form h1 {
+    font-size: 36px;
+    text-align: left;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.form {
+    /* padding: 10px 0; */
+    margin: 0 auto;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 12px;
+    /* flex: 1 1 362px; */
+}
+
+.form input {
+    border-radius: 2rem;
+/*  padding for text inside*/
+    padding: 12px 0 12px 15px;
+    border: 0;
+    text-transform: capitalize;
+    text-align: left;
+    color: #7f7f7f;
+}
+
+.form input:nth-child(n+3){
+    grid-column: 1/3;
+}
+
+.form button {
+    grid-column: 1/3;
+    padding: 14px 50px;
+    border-radius: 2rem;
+    border: none;
+    /* color: #fff; */
+    background-color: #f19d20;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    width: 100%;
+    color: #fff;
+}
+.form button:hover{
+    background-color: #aebb2f;
+}
+
+/*  -------------------new---------------------------*/
+
+/* .bg {
+    background: grey;
+    padding: 20px;
+} */
+
+.wrap {
+    background: #fff;
+    padding-bottom: 35px;
+    margin: 0;
+    /* max-width: 960px; */
+    /* margin: 10 auto; */
+    /* width: 100%;
+    display: flex;
+    justify-content: center; */
+}
+
+.schedules {
+    margin:0 auto;
+    /* width: 650px; */
+    width: 60%;
+    height: auto;
+
+    /* background: purple; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    /* align-items: center; */
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+.detail {
+    width: 200px;
+    min-width: 150px;
+    height: 200px;
+    min-height: 150px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 65px;
+    border-radius: 2px;
+}
+
+/*--------------put yoga here!-------------------------*/
+
+.detail {
+    background-image: linear-gradient(rgba(70, 75, 77, 0.55), rgba(70, 75, 77, 0.55)), url("../pics/yoga.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.detail p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.detail button {
+    padding: 10px 40px;
+    border-radius: 2rem;
+    border: none;
+    color: #fff;
+    background-color: #aebb2f;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.detail button:hover{
+    background-color: #f19d20 ;
+}
+
+/* ---------------flex--------------- */
+
+.bg2 {
+    background: #919797;
+    /* padding: 20px; */
+}
+
+.wrap2 {
+    padding-bottom: 30px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.wrap2 h4 {
+    color: #fff;
+}
+
+.packages {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 144px;
+    height: 240px;
+    background: #fff;
+    margin: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.card h4 {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 8px;
+    margin: 7px 0;
+    color: #aebb2f;
+    text-transform: uppercase;
+}
+
+.card p {
+    font-size: 11.5px;
+    color: grey;
+    padding: 0 5px;
+    text-transform: capitalize;
+    /* position: absolute; */
+}
+
+.card button {
+    /* box-sizing: border-box; */
+    padding: 8px 15px;
+    border-radius: 2rem;
+    border: none;
+    color: #fff;
+    background-color: #f19d20;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    position: absolute;
+    bottom: 6%;
+    right: 22%;
+}
+
+.card-pic {
+    width: auto;
+    height: 90px;
+    background: blue;
+    background-image: url("../pics/yoga.jpg");
+    background-position: center;
+    background-size: cover;
+    border-bottom: 2px solid #f19d20;
+}
+
+/*  -------------------new---------------------------*/
+
+/*  -------------------------about----------------------*/
+
+.wrap-about {
+    background: #fff;
+    /* width: 600px; */
+    /* margin: 0 auto; */
+    padding: 40px;
+    border-bottom: : 1px solid lightgrey;
+}
+
+.about {
+    background: #f3f3f3;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about h4{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    /* display: inline; */
+}
+.about p{
+    color: #7f7f7f;
+}
+.about-logo{
+    display: inline-flex;
+    align-items:  center;
+}
+.about-logo svg{
+    width: 145px;
+    padding-left:7px;
+    padding-top: 3px;
+
+}
+
+/* ----------------------mail---------------------- */
+
+.mail {
+    background: orange;
+}
+
+.mail-form {
+    grid-row: 7/8;
+    grid-column: 3/4;
+    background: purple;
+}
+
+
+
+/* -----------------------------extra images---------------- */
+.extra-images {
+    grid-row: 8/9;
+    grid-column: 1/4;
+    background: red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 120px;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+ .extra-images{
+    /* width: 100%; */
+    /* background-image: linear-gradient(rgba(70, 75, 77, 0.55), rgba(70, 75, 77, 0.55)), url("wellness-test-page/images-used/yoga.jpg"); */
+    background-position: center;
+    background-position-y:-2.7rem;
+    /* background-size:  auto; */
+    /* width: 100px; */
+    grid-column: 1/2;
+    background-image: url("wellness-test-page/images-used/10.jpg");
+    /* background-position: center; */
+    /* top: 10px; */
+}
+
+.extra-images-1{
+    display: none;
+}
+
+/* .extra-images > img:last-child{
+    align-self: start;
+} */
+/*----------------------footer-------------------*/
+
+.footer-wrapper {
+    background: grey;
+    padding: 35px 30px 60px 30px;
+    color: #fff;
+}
+
+.footer-wrapper>p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    /* align-content: center; */
+    justify-items: center;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+.logo-end svg{
+    width:8rem;
+}
+
+.social a{
+    color: #fff;
+    text-decoration: none;
+padding-right: 5px;
+}
+
+.social a:hover{
+    color:#f19d20;
+}
+
+.middle{
+    padding-top: 16px;
+}
+.middle p {
+    margin: 0;
+}
+
+.middle p:first-child{
+    color: #f19d20;
+}
+
+/* footer .social, .middle, .links {
+    align-items: baseline;
+    /* background: red;
+} */
+
+.links{
+    margin-top: 16px;
+    /* background: yellow; */
+}
+.links a {
+    text-decoration: none;
+    display: block;
+    text-transform:  capitalize;
+    /* padding: 5px; */
+    color: #fff;
+}
+
+/* ---------------------layout end---------------------- */
