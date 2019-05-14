@@ -120,7 +120,7 @@ nav > .logo{
     /* height: auto; */
     /* min-height: 414px; */
     height: 100%;
-    background-image: url("Pics/hero-image.jpg");
+    background-image: url("https://eizads.github.io/Yoga-Studio/Pics/hero-image.jpg");
     background-position: center;
     /* background-position-y: -180px; */
     background-repeat: no-repeat;
@@ -244,7 +244,7 @@ nav > .logo{
 /*--------------put yoga here!-------------------------*/
 
 .detail {
-    background-image: linear-gradient(rgba(70, 75, 77, 0.55), rgba(70, 75, 77, 0.55)), url("Pics/yoga.jpg");
+    background-image: linear-gradient(rgba(70, 75, 77, 0.55), rgba(70, 75, 77, 0.55)), url("https://eizads.github.io/Yoga-Studio/Pics/yoga.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -340,7 +340,7 @@ nav > .logo{
     width: auto;
     height: 90px;
     background: blue;
-    background-image: url("Pics/yoga.jpg");
+    background-image: url("https://eizads.github.io/Yoga-Studio/Pics/yoga.jpg");
     background-position: center;
     background-size: cover;
     border-bottom: 2px solid #f19d20;
@@ -423,7 +423,7 @@ nav > .logo{
     /* background-size:  auto; */
     /* width: 100px; */
     grid-column: 1/2;
-    background-image: url("wellness-test-page/images-used/10.jpg");
+    background-image: url("https://eizads.github.io/Yoga-Studio/wellness-test-page/images-used/10.jpg");
     /* background-position: center; */
     /* top: 10px; */
 }
