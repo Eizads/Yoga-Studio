@@ -107,36 +107,18 @@ nav > .logo{
 }
 
 .hero-form {
-    /* background: purple; */
-    margin: 50px;
-    /* margin: 50px; */
+    margin:15vh 10vh;
     height: auto;
-    /* width: 3%; */
-    /* padding-bottom:  50px; */
-    /* overflow: hidden; */
-    /* min-width: 36%; */
-    /* max-width: 100%; */
-    /* width: 100% */
-    /* max-width: 50%; */
-}
-
-.hero-form h1 {
-    font-size: 36px;
-    text-align: left;
-    color: #fff;
-    font-weight: normal;
-    text-transform: uppercase;
-    margin: 0;
-    padding-bottom: 20px;
+    width: 65vh;
 }
 
 .form {
     /* padding: 10px 0; */
     margin: 0 auto;
-    height: auto;
+    height: 25vh;
     grid-template-columns: 1fr 1fr;
     display: grid;
-    grid-gap: 12px;
+    grid-gap: 2vh;
     /* flex: 1 1 362px; */
 }
 
