@@ -19,31 +19,17 @@ body {
     font-size: 1rem;
 }
 
-/* .Container- {
-    /* width: auto; */
-    max-width: 1024px;
-    /* min-width: 360px; */
-    /* display: grid;
-    grid-template-columns: 0.3fr 0.6fr 0.3fr; */
-    /* grid-row-gap: 0.5rem; */
-    /* grid-template-rows: auto; */
-    /* width: 100%; */
-    /* max-width: 1024px; */
-    margin: 0 auto;
-    /* position: relative; */
-    /* grid-template-areas: 'a a a' 'b b b' ' c c c' ' d j d' 'e e e' 'f f f' ' g g g' ' h h h ' 'i i i' */
-} */
-
-.section-name {
+.section-name{
     text-align: center;
     font-weight: lighter;
     /* font-size: 20px; */
     font-size: 1.5rem;
     text-transform: uppercase;
     margin: 0;
-    padding: 35px;
+    padding: 100px 0;
     color: grey;
 }
+
  .login button:focus, .hero-form button:focus, .detail button:focus, .packages button:focus{
 outline: none; }
 
@@ -56,43 +42,31 @@ outline: none; }
     align-items: center;
     background: #fff;
     border-bottom: 1px solid lightgrey;
+    padding: 0 30px;
 }
 
 .login button {
-    padding: 10px 20px;
-    background: green;
+    padding: 10px 30px;
+    /* background: green; */
     border: none;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* margin-right: 20px; */
     /* background: white; */
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 /*-----------------nav----------------------- */
 .navbar-nav{
-
+    padding: 0 30px; /*side padding*/
+    /* font-size:1rem; */
+    color: black;
 }
-nav {
-    /* grid-row: 2/3; */
-    /* grid-column: 1/4; */
-    background: #fff;
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px 10px;
-}
-#navbar {
-     padding: 0 20px;
-     font-size:1rem;
-     color: black;
-    display: none;
-}
-nav a {
-    font-size: 0.7rem;
+.nav-item{
+    padding: 0 50px;
+    font-size: 0.8rem;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     color:grey;
 }
 
@@ -109,9 +83,9 @@ nav > .logo{
     margin-left: 20px;
     margin-right: auto;
 }
-.dropdown-content{
-    display: none;
-}
+
+/*-----------------hero section--------------*/
+
 .hero {
     /* grid-row: 3/4; */
     /* grid-column: 1/4; */
@@ -119,7 +93,7 @@ nav > .logo{
     /* height: auto; */
     /* height: auto; */
     /* min-height: 414px; */
-    height: 100%;
+    height: 100vh;
     background-image: url("https://eizads.github.io/Yoga-Studio/Pics/hero-image.jpg");
     background-position: center;
     /* background-position-y: -180px; */
@@ -134,7 +108,7 @@ nav > .logo{
 
 .hero-form {
     /* background: purple; */
-    margin: 50px 20px;
+    margin: 50px;
     /* margin: 50px; */
     height: auto;
     /* width: 3%; */
@@ -197,22 +171,12 @@ nav > .logo{
     background-color: #aebb2f;
 }
 
-/*  -------------------new---------------------------*/
-
-/* .bg {
-    background: grey;
-    padding: 20px;
-} */
+/*  -------------------sections---------------------------*/
 
 .wrap {
     background: #fff;
-    padding-bottom: 35px;
+    padding: 100px 0;
     margin: 0;
-    /* max-width: 960px; */
-    /* margin: 10 auto; */
-    /* width: 100%;
-    display: flex;
-    justify-content: center; */
 }
 
 .schedules {
@@ -280,7 +244,7 @@ nav > .logo{
 }
 
 .wrap2 {
-    padding-bottom: 30px;
+    padding: 100px 0;
     max-width: 650px;
     margin: 0 auto;
 }
