@@ -329,9 +329,9 @@ nav > .logo{
 /* -----------------------------extra images---------------- */
 
 /*----------------------footer-------------------*/
-.ending{
+/* .ending{
     max-height:200px;
-}
+} */
 
 .footer-wrapper {
     background: grey;
@@ -356,7 +356,7 @@ footer {
 
 .container-fluid .col-sm{
     padding: 0;
-    height: 200px:
+    /* height: 200px: */
 }
 .footer-img{
     background-image: url("https://eizads.github.io/Yoga-Studio/Pics/1.jpg");
@@ -369,8 +369,8 @@ footer {
     /* justify-content: flex-end; */
     border-bottom: 3px solid #aebb2f;
     /* margin-top: 0; */
-    width: 100vh;
-    height: auto;
+    /* width: 100vh; */
+    /* height: auto; */
     /* max-height: 200px; */
 }
 
