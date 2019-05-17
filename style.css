@@ -33,6 +33,12 @@ body {
  .login button:focus, .hero-form button:focus, .detail button:focus, .packages button:focus{
 outline: none; }
 
+/*--------------media query--------------*/
+@media (max-width: 576px){
+    .vis{
+        display: none;
+    }
+}
 
 /*-----------------login----------------------- */
 
@@ -176,23 +182,12 @@ nav > .logo{
     /* padding: 20px; */
 }
 
-.detail {
-    width: 200px;
-    min-width: 150px;
-    height: 200px;
-    min-height: 150px;
-    background-color: yellow;
-    text-align: center;
-    padding-top: 65px;
-    border-radius: 2px;
-}
 
 /*--------------put yoga here!-------------------------*/
 
 .detail {
-    background-image: linear-gradient(rgba(70, 75, 77, 0.55), rgba(70, 75, 77, 0.55)), url("https://eizads.github.io/Yoga-Studio/Pics/yoga.jpg");
-    background-position: center;
-    background-size: cover;
+    text-align: center;
+    border-radius: 2px;
 }
 
 .detail p {
@@ -200,7 +195,7 @@ nav > .logo{
     font-size: 1.5rem;
     font-weight: lighter;
     margin: 0;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 .detail button {
@@ -211,7 +206,8 @@ nav > .logo{
     background-color: #aebb2f;
     font-size: 0.8em;
     text-transform: uppercase;
-    margin-top: 0;
+    z-index: 1;
+    /* margin-top: 0; */
 }
 
 .detail button:hover{
@@ -242,14 +238,6 @@ nav > .logo{
     max-width: 650px;
 } */
 
-/* .card {
-    width: 144px;
-    height: 240px;
-    background: #fff;
-    margin: 5px;
-    text-align: center;
-    position: relative;
-} */
 
 .card-title{
     font-size: 18px;
@@ -339,23 +327,15 @@ nav > .logo{
 
 
 /* -----------------------------extra images---------------- */
-.one{
-    background-image: url("https://eizads.github.io/Yoga-Studio/Pics/1.jpg");
-    background-position: center;
-    /* background-position-y: -180px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    border-bottom: 3px solid #aebb2f;
-    margin-top: 0;
-}
+
 /*----------------------footer-------------------*/
+.ending{
+    max-height:200px;
+}
 
 .footer-wrapper {
     background: grey;
-    padding: 35px 30px 60px 30px;
+    /* padding: 35px 30px 60px 30px; */
     color: #fff;
 }
 
@@ -368,11 +348,32 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
-    /* align-content: center; */
+    align-content: center;
     justify-items: center;
     font-size: 0.75rem;
     font-weight: normal;
 }
+
+.container-fluid .col-sm{
+    padding: 0;
+    height: 200px:
+}
+.footer-img{
+    background-image: url("https://eizads.github.io/Yoga-Studio/Pics/1.jpg");
+    background-position: center;
+    /* background-position-y: -180px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-align: right; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    border-bottom: 3px solid #aebb2f;
+    /* margin-top: 0; */
+    width: 100vh;
+    height: auto;
+    /* max-height: 200px; */
+}
+
 .logo-end svg{
     width:8rem;
 }
