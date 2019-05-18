@@ -38,6 +38,10 @@ outline: none; }
     .vis{
         display: none;
     }
+.detail{
+    padding: 0;
+}
+
 }
 
 /*-----------------login----------------------- */
@@ -163,7 +167,7 @@ nav > .logo{
 
 .wrap {
     background: #fff;
-    padding: 100px 0;
+    padding-bottom: 100px;
     margin: 0;
 }
 
@@ -183,11 +187,23 @@ nav > .logo{
 }
 
 
+.caption{
+ position: absolute;
+ top: 35%;
+ left: 0;
+ width: 100%;
+}
+
+
+
 /*--------------put yoga here!-------------------------*/
 
 .detail {
     text-align: center;
     border-radius: 2px;
+    position: relative;
+    grid-row: 5px;
+
 }
 
 .detail p {
@@ -206,7 +222,7 @@ nav > .logo{
     background-color: #aebb2f;
     font-size: 0.8em;
     text-transform: uppercase;
-    z-index: 1;
+
     /* margin-top: 0; */
 }
 
