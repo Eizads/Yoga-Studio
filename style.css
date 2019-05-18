@@ -2,239 +2,245 @@
 /* #7f7f7f */
 /*  #f19d20 */
 /* -----------------global-------------------- */
-
 html {
-    box-sizing: border-box;
-    font-size: 100%;
+	box-sizing: border-box;
+	font-size: 100%;
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    background: lightgrey;
-    font-family: 'roboto regular', sans-serif;
-    font-size: 1rem;
+	margin: 0;
+	background: lightgrey;
+	font-family: 'roboto regular', sans-serif;
+	font-size: 1rem;
 }
 
-.section-name{
-    text-align: center;
-    font-weight: lighter;
-    /* font-size: 20px; */
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 100px 0;
-    color: grey;
+.section-name {
+	text-align: center;
+	font-weight: lighter;
+	/* font-size: 20px; */
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 100px 0;
+	color: grey;
 }
 
- .login button:focus, .hero-form button:focus, .detail button:focus, .packages button:focus{
-outline: none; }
+.login button:focus, .hero-form button:focus, .detail button:focus, .packages button:focus {
+	outline: none;
+}
 
 /*--------------media query--------------*/
-@media (max-width: 576px){
-    .vis{
-        display: none;
-    }
-.detail{
-    padding: 0;
-}
+@media (max-width: 576px) {
+	.vis {
+		display: none;
+	}
 
+	.detail {
+		padding: 0;
+	}
 }
 
 /*-----------------login----------------------- */
-
 .login {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background: #fff;
-    border-bottom: 1px solid lightgrey;
-    padding: 0 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background: #fff;
+	border-bottom: 1px solid lightgrey;
+	padding: 0 30px;
 }
 
 .login button {
-    padding: 10px 30px;
-    /* background: green; */
-    border: none;
-    /* border-radius: 10px; */
-    /* margin-right: 20px; */
-    /* background: white; */
-    font-size: 0.8rem;
+	padding: 10px 30px;
+	/* background: green; */
+	border: none;
+	/* border-radius: 10px; */
+	/* margin-right: 20px; */
+	/* background: white; */
+	font-size: 0.8rem;
 }
 
 /*-----------------nav----------------------- */
-.navbar-nav{
-    padding: 0 30px; /*side padding*/
-    /* font-size:1rem; */
-    color: black;
+.navbar-nav {
+	padding: 0 30px;
+	/*side padding*/
+	/* font-size:1rem; */
+	color: black;
 }
-.nav-item{
-    padding: 0 50px;
-    font-size: 0.8rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    /* padding: 0 10px; */
-    color:grey;
+
+.nav-item {
+	padding: 0 50px;
+	font-size: 0.8rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	/* padding: 0 10px; */
+	color: grey;
 }
 
 a:hover {
-    color: grey;
+	color: grey;
 }
 
-nav a:first-of-type{
-    color:#aebb2f;
+nav a:first-of-type {
+	color: #aebb2f;
 }
 
-nav > .logo{
-    width: 150px;
-    margin-left: 20px;
-    margin-right: auto;
+nav>.logo {
+	width: 150px;
+	margin-left: 20px;
+	margin-right: auto;
 }
 
 /*-----------------hero section--------------*/
-
 .hero {
-    /* grid-row: 3/4; */
-    /* grid-column: 1/4; */
-    background: green;
-    /* height: auto; */
-    /* height: auto; */
-    /* min-height: 414px; */
-    height: 100vh;
-    background-image: url("https://eizads.github.io/Yoga-Studio/Pics/hero-image.jpg");
-    background-position: center;
-    /* background-position-y: -180px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    border-bottom: 3px solid #aebb2f;
-    margin-top: 0;
+	/* grid-row: 3/4; */
+	/* grid-column: 1/4; */
+	background: green;
+	/* height: auto; */
+	/* height: auto; */
+	/* min-height: 414px; */
+	height: 100vh;
+	background-image: url("https://eizads.github.io/Yoga-Studio/Pics/hero-image.jpg");
+	background-position: center;
+	/* background-position-y: -180px; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 3px solid #aebb2f;
+	margin-top: 0;
 }
 
 .hero-form {
-    margin:15vh 10vh;
-    height: auto;
-    width: 65vh;
+	margin: 15vh 10vh;
+	height: auto;
+	width: 65vh;
 }
 
 .form {
-    /* padding: 10px 0; */
-    margin: 0 auto;
-    height: 25vh;
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    grid-gap: 2vh;
-    /* flex: 1 1 362px; */
+	/* padding: 10px 0; */
+	margin: 0 auto;
+	height: 25vh;
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-gap: 2vh;
+	/* flex: 1 1 362px; */
 }
 
 .form input {
-    border-radius: 2rem;
-/*  padding for text inside*/
-    padding: 12px 0 12px 15px;
-    border: 0;
-    text-transform: capitalize;
-    text-align: left;
-    color: #7f7f7f;
+	border-radius: 2rem;
+	/*  padding for text inside*/
+	padding: 12px 0 12px 15px;
+	border: 0;
+	text-transform: capitalize;
+	text-align: left;
+	color: #7f7f7f;
 }
 
-.form input:nth-child(n+3){
-    grid-column: 1/3;
+.form input:nth-child(n+3) {
+	grid-column: 1/3;
 }
 
 .form button {
-    grid-column: 1/3;
-    padding: 14px 50px;
-    border-radius: 2rem;
-    border: none;
-    /* color: #fff; */
-    background-color: #f19d20;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    margin-top: 0;
-    width: 100%;
-    color: #fff;
+	grid-column: 1/3;
+	padding: 14px 50px;
+	border-radius: 2rem;
+	border: none;
+	/* color: #fff; */
+	background-color: #f19d20;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	margin-top: 0;
+	width: 100%;
+	color: #fff;
 }
-.form button:hover{
-    background-color: #aebb2f;
+
+.form button:hover {
+	background-color: #aebb2f;
 }
 
 /*  -------------------sections---------------------------*/
-
 .wrap {
-    background: #fff;
-    padding-bottom: 100px;
-    margin: 0;
+	background: #fff;
+	padding-bottom: 100px;
+	margin: 0;
 }
 
 .schedules {
-    margin:0 auto;
-    /* width: 650px; */
-    width: 60%;
-    height: auto;
-
-    /* background: purple; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    /* align-items: center; */
-    justify-content: center;
-    /* padding: 20px; */
+	margin: 0 auto;
+	/* width: 650px; */
+	width: 60%;
+	height: auto;
+	/* background: purple; */
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	/* align-items: center; */
+	justify-content: center;
+	/* padding: 20px; */
 }
 
-
-.caption{
- position: absolute;
- top: 35%;
- left: 0;
- width: 100%;
+.caption {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
 }
-
-
 
 /*--------------put yoga here!-------------------------*/
-
 .detail {
-    text-align: center;
-    border-radius: 2px;
-    position: relative;
-    grid-row: 5px;
+	text-align: center;
+	border-radius: 2px;
+	position: relative;
+	grid-row: 5px;
+}
 
+.overlay {
+	position: relative;
+}
+
+.overlay::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 47, 75, 0.4);
 }
 
 .detail p {
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: lighter;
-    margin: 0;
-    /* padding-bottom: 5px; */
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	margin: 0;
+	/* padding-bottom: 5px; */
 }
 
 .detail button {
-    padding: 10px 40px;
-    border-radius: 2rem;
-    border: none;
-    color: #fff;
-    background-color: #aebb2f;
-    font-size: 0.8em;
-    text-transform: uppercase;
-
-    /* margin-top: 0; */
+	padding: 10px 40px;
+	border-radius: 2rem;
+	border: none;
+	color: #fff;
+	background-color: #aebb2f;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	/* margin-top: 0; */
 }
 
-.detail button:hover{
-    background-color: #f19d20 ;
+.detail button:hover {
+	background-color: #f19d20;
 }
 
 /* ---------------flex--------------- */
-
 .bg2 {
-    background: #919797;
-    padding-bottom: 100px;
+	background: #919797;
+	padding-bottom: 100px;
 }
 
 /* .wrap2 {
@@ -242,194 +248,187 @@ nav > .logo{
     max-width: 650px;
     margin: 0 auto;
 } */
-
 .wrap2 h4 {
-    color: #fff;
+	color: #fff;
 }
 
 /* .packages {
     /* display: flex;
     flex-flow: row wrap;
     justify-content: space-between; */
-    max-width: 650px;
-} */
-
-
-.card-title{
-    font-size: 18px;
-    font-weight: 400;
-    padding: 0 8px;
-    margin: 7px 0;
-    color: #aebb2f;
-    text-transform: uppercase;
+max-width: 650px;
 }
 
-.card-text{
-    font-size: 11.5px;
-    color: grey;
-    padding: 0 5px;
-    text-transform: capitalize;
-    /* position: absolute; */
+*/ .card-title {
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0 8px;
+	margin: 7px 0;
+	color: #aebb2f;
+	text-transform: uppercase;
+}
+
+.card-text {
+	font-size: 11.5px;
+	color: grey;
+	padding: 0 5px;
+	text-transform: capitalize;
+	/* position: absolute; */
 }
 
 .btn-primary {
-    /* box-sizing: border-box; */
-    padding: 10px 25px;
-    border-radius: 2rem;
-    border: none;
-    color: #fff;
-    background-color: #f19d20;
-    font-size: 0.6rem;
-    text-transform: uppercase;
-    align-items: center;
-
+	/* box-sizing: border-box; */
+	padding: 10px 25px;
+	border-radius: 2rem;
+	border: none;
+	color: #fff;
+	background-color: #f19d20;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+	align-items: center;
 }
 
-
 /*  -------------------new---------------------------*/
-
 /*  -------------------------about----------------------*/
-
 .wrap-about {
-    background: #fff;
-    /* width: 600px; */
-    /* margin: 0 auto; */
-    padding: 40px;
-    border-bottom: : 1px solid lightgrey;
+	background: #fff;
+	/* width: 600px; */
+	/* margin: 0 auto; */
+	padding: 40px;
+	border-bottom: : 1px solid lightgrey;
 }
 
 .about {
-    background: #f3f3f3;
-    text-align: center;
-    padding: 40px;
-    border-radius: 5px;
-    max-width: 600px;
-    margin: 0 auto;
+	background: #f3f3f3;
+	text-align: center;
+	padding: 40px;
+	border-radius: 5px;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
-.about h4{
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: lighter;
-    text-transform: uppercase;
-    /* display: inline; */
+.about h4 {
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	text-transform: uppercase;
+	/* display: inline; */
 }
-.about p{
-    color: #7f7f7f;
-}
-.about-logo{
-    display: inline-flex;
-    align-items:  center;
-}
-.about-logo svg{
-    width: 145px;
-    padding-left:7px;
-    padding-top: 3px;
 
+.about p {
+	color: #7f7f7f;
+}
+
+.about-logo {
+	display: inline-flex;
+	align-items: center;
+}
+
+.about-logo svg {
+	width: 145px;
+	padding-left: 7px;
+	padding-top: 3px;
 }
 
 /* ----------------------mail---------------------- */
-
 .mail {
-    background: orange;
+	background: orange;
 }
 
 .mail-form {
-    grid-row: 7/8;
-    grid-column: 3/4;
-    background: purple;
+	grid-row: 7/8;
+	grid-column: 3/4;
+	background: purple;
 }
 
-
-
 /* -----------------------------extra images---------------- */
-
 /*----------------------footer-------------------*/
 /* .ending{
     max-height:200px;
 } */
-
 .footer-wrapper {
-    background: grey;
-    /* padding: 35px 30px 60px 30px; */
-    color: #fff;
+	background: grey;
+	/* padding: 35px 30px 60px 30px; */
+	color: #fff;
 }
 
 .footer-wrapper>p {
-    text-align: center;
-    padding-top: 20px;
+	text-align: center;
+	padding-top: 20px;
 }
 
 footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
-    align-content: center;
-    justify-items: center;
-    font-size: 0.75rem;
-    font-weight: normal;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+	align-content: center;
+	justify-items: center;
+	font-size: 0.75rem;
+	font-weight: normal;
 }
 
-.container-fluid .col-sm{
-    padding: 0;
-    /* height: 200px: */
-}
-.footer-img{
-    background-image: url("https://eizads.github.io/Yoga-Studio/Pics/1.jpg");
-    background-position: center;
-    /* background-position-y: -180px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* text-align: right; */
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    border-bottom: 3px solid #aebb2f;
-    /* margin-top: 0; */
-    /* width: 100vh; */
-    /* height: auto; */
-    /* max-height: 200px; */
+.container-fluid .col-sm {
+	padding: 0;
+	/* height: 200px: */
 }
 
-.logo-end svg{
-    width:8rem;
+.footer-img {
+	background-image: url("https://eizads.github.io/Yoga-Studio/Pics/1.jpg");
+	background-position: center;
+	/* background-position-y: -180px; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* text-align: right; */
+	/* display: flex; */
+	/* justify-content: flex-end; */
+	border-bottom: 3px solid #aebb2f;
+	/* margin-top: 0; */
+	/* width: 100vh; */
+	/* height: auto; */
+	/* max-height: 200px; */
 }
 
-.social a{
-    color: #fff;
-    text-decoration: none;
-padding-right: 5px;
+.logo-end svg {
+	width: 8rem;
 }
 
-.social a:hover{
-    color:#f19d20;
+.social a {
+	color: #fff;
+	text-decoration: none;
+	padding-right: 5px;
 }
 
-.middle{
-    padding-top: 16px;
+.social a:hover {
+	color: #f19d20;
 }
+
+.middle {
+	padding-top: 16px;
+}
+
 .middle p {
-    margin: 0;
+	margin: 0;
 }
 
-.middle p:first-child{
-    color: #f19d20;
+.middle p:first-child {
+	color: #f19d20;
 }
 
 /* footer .social, .middle, .links {
     align-items: baseline;
     /* background: red;
 } */
-
-.links{
-    margin-top: 16px;
-    /* background: yellow; */
+.links {
+	margin-top: 16px;
+	/* background: yellow; */
 }
+
 .links a {
-    text-decoration: none;
-    display: block;
-    text-transform:  capitalize;
-    /* padding: 5px; */
-    color: #fff;
+	text-decoration: none;
+	display: block;
+	text-transform: capitalize;
+	/* padding: 5px; */
+	color: #fff;
 }
 
 /* ---------------------layout end---------------------- */
