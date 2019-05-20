@@ -42,6 +42,11 @@ body {
 	.detail {
 		padding: 0;
 	}
+    .card .btn-primary, .card .btn{
+        width: 200px;
+        padding: 15px;
+        align-self: center;
+    }
 }
 
 /*-----------------login----------------------- */
@@ -252,14 +257,7 @@ nav>.logo {
 	color: #fff;
 }
 
-/* .packages {
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between; */
-max-width: 650px;
-}
-
-*/ .card-title {
+.card-title {
 	font-size: 18px;
 	font-weight: 400;
 	padding: 0 8px;
@@ -276,21 +274,24 @@ max-width: 650px;
 	/* position: absolute; */
 }
 
-.btn-primary {
+.btn-primary, .btn {
 	/* box-sizing: border-box; */
-	padding: 10px 25px;
+	padding: 12px 25px;
 	border-radius: 2rem;
 	border: none;
 	color: #fff;
 	background-color: #f19d20;
-	font-size: 0.6rem;
+	font-size: 0.8em;
 	text-transform: uppercase;
-	align-items: center;
+    max-width: 140px;
+
 }
 
-.btn{
+/* .btn{
     background-color: #f19d20;
-}
+    margin-left: 10vh;
+    margin-right: 10vh;
+} */
 .btn:hover{
     background-color: #aebb2f;
 }
@@ -380,9 +381,9 @@ footer {
 	/* height: 200px: */
 }
 
-.box{
+/* .box{
     height:200px;
-}
+} */
 .footer-img {
 	background-image: url("https://eizads.github.io/Yoga-Studio/Pics/1.jpg");
 	background-position: center;
