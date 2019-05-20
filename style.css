@@ -288,6 +288,13 @@ max-width: 650px;
 	align-items: center;
 }
 
+.btn{
+    background-color: #f19d20;
+}
+.btn:hover{
+    background-color: #aebb2f;
+}
+
 /*  -------------------new---------------------------*/
 /*  -------------------------about----------------------*/
 .wrap-about {
@@ -348,6 +355,7 @@ max-width: 650px;
 } */
 .footer-wrapper {
 	background: grey;
+    padding: 50px;
 	/* padding: 35px 30px 60px 30px; */
 	color: #fff;
 }
@@ -372,6 +380,9 @@ footer {
 	/* height: 200px: */
 }
 
+.box{
+    height:200px;
+}
 .footer-img {
 	background-image: url("https://eizads.github.io/Yoga-Studio/Pics/1.jpg");
 	background-position: center;
@@ -383,8 +394,8 @@ footer {
 	/* justify-content: flex-end; */
 	border-bottom: 3px solid #aebb2f;
 	/* margin-top: 0; */
-	/* width: 100vh; */
-	/* height: auto; */
+	width: 100%;
+	height: auto;
 	/* max-height: 200px; */
 }
 
