@@ -35,8 +35,9 @@ body {
 
 /*--------------media query--------------*/
 @media (max-width: 576px) {
-	.hero-form {
-		justify-content: center;
+	form .btn {
+		display: block;
+		margin: 0 auto;
 	}
 
 	.vis {
@@ -53,12 +54,16 @@ body {
 		align-self: center;
 	}
 
-	.about-logo{
+	.about-logo {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
 
+	footer {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 /*-----------------login----------------------- */
@@ -90,7 +95,6 @@ body {
 }
 
 .nav-item {
-	padding: 0 50px;
 	font-size: 0.8rem;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -221,6 +225,10 @@ nav>.logo {
 	color: #fff;
 }
 
+.card {
+	border: none;
+}
+
 .card-title {
 	font-size: 18px;
 	font-weight: 400;
@@ -275,7 +283,7 @@ nav>.logo {
 	/* margin: 0 auto; */
 }
 
-.about-logo .header{
+.about-logo .header {
 	font-size: 1.5rem;
 	font-weight: lighter;
 	text-transform: uppercase;
@@ -312,9 +320,11 @@ nav>.logo {
     max-height:200px;
 } */
 .footer-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background: grey;
 	padding: 50px;
-	/* padding: 35px 30px 60px 30px; */
 	color: #fff;
 }
 
@@ -324,13 +334,16 @@ nav>.logo {
 }
 
 footer {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 5px;
 	align-content: center;
-	justify-items: center;
+	justify-items: center; */
+	display: flex;
+	justify-content: space-around;
 	font-size: 0.75rem;
 	font-weight: normal;
+	width: 100%;
 }
 
 .container-fluid .col-sm {
