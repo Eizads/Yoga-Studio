@@ -44,6 +44,11 @@ body {
 		display: none;
 	}
 
+	svg{
+		width: 130px;
+		height: auto;
+	}
+
 	.detail {
 		padding: 0;
 	}
